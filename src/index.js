@@ -4,7 +4,7 @@ import './index.css';
 
 class Square extends React.Component {
   constructor(props) {
-    supper(props);
+    super(props);
     this.state = {
       value: 1
     }
